@@ -234,5 +234,11 @@
   "TryToAllocateTask": "تجربة تغير مستخدم المهمة",
   "sequentialStateHandling": "تدبر الحالة المتتالية",
   "sequentialActionDone": "الامر المتتالي تم",
-  "lastActionExecutorNote": "ملاحظة منفذ الإجراء الأخير"
+  "lastActionExecutorNote": "ملاحظة منفذ الإجراء الأخير",
+  "Leave Request": "طلب إجازة",
+  "First Name": "الاسم الأول",
+  "Last Name": "اسم العائلة",
+  "Mobile Number": "رقم الموبايل",
+  "Leave Request Type": "نوع طلب الإجازة",
+  "Leave Request Status": "حالة طلب الإجازة"
 }

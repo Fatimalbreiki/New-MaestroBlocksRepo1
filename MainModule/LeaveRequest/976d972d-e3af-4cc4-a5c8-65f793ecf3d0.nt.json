@@ -1,12 +1,21 @@
 {
-  "Title": "",
+  "Title": "FatimaAlbreiki_Leave Request Application Status Update",
   "NotificationTypeId": 0,
   "IsPublished": false,
-  "TemplateContents": [],
-  "CreatedBy": 41,
+  "TemplateContents": [
+    {
+      "LanguageId": 1,
+      "TemplateId": "00000000-0000-0000-0000-000000000000",
+      "Body": "<p><strong>Dear ##Employee##,</strong></p><p>We are writing to inform you of the status of your recent request submitted to your manager.</p><p><br></p><p>We are happy to inform you that your request has been <strong>approved</strong> by your manager.</p><p>Find details below:</p><ul><li><strong>Request Type:</strong> ##RequestType##</li><li><strong>Date of Request:</strong> ##RequestDate##</li><li><strong>Approval Date:</strong> ##Approval Date##</li></ul><p><br></p><p>If you have any further questions or need additional details, please feel free to reach out.</p><p><br></p><p>Regards,</p><p>##Manager##</p>",
+      "Id": "05899fd2-6b3c-4642-a729-b12f18316df2",
+      "Code": null,
+      "MaestroBlocksEntityState": 0
+    }
+  ],
+  "CreatedBy": null,
   "CreationDate": "2025-01-08T11:51:34.4180291Z",
-  "ModifiedBy": null,
-  "ModificationDate": null,
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-09T12:39:49.7362589Z",
   "DeletedBy": null,
   "DeletionDate": null,
   "MetaData": {},

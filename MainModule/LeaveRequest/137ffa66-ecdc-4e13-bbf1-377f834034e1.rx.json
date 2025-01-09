@@ -4,11 +4,11 @@
     "EditorType": 2,
     "Value": "^(?:19|20)\\d\\d-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$\r\n"
   },
-  "Description": "Checks the date format.",
+  "Description": "It checks the date format.",
   "CreatedBy": null,
   "CreationDate": "2025-01-08T11:57:35.217383Z",
   "ModifiedBy": 41,
-  "ModificationDate": "2025-01-08T11:57:49.8711021Z",
+  "ModificationDate": "2025-01-09T16:11:21.4518072Z",
   "DeletedBy": null,
   "DeletionDate": null,
   "MetaData": {},

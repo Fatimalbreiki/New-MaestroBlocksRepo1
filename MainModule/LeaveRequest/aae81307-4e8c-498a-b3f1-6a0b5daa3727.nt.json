@@ -1,12 +1,21 @@
 {
-  "Title": "Fatima_Albreiki_Leave Request Application",
+  "Title": "Fatima_Albreiki_LeaveRequestApplicationStatusUpdate",
   "NotificationTypeId": 0,
   "IsPublished": false,
-  "TemplateContents": [],
+  "TemplateContents": [
+    {
+      "LanguageId": 1,
+      "TemplateId": "00000000-0000-0000-0000-000000000000",
+      "Body": "<p>Dear ##Employee##,</p><p><br></p><p>We would like to inform you that your recent request has been processed by the HR department.</p><p><br></p><p><br></p><p><br></p><p>We are pleased to inform you that your request has been approved.</p><p><br></p><p>Details below:</p><p><br></p><p>Request Type: ##RequestType##</p><p>Date: ##RequestDate##</p><p>Approval Date: ##ApprovalDate##</p><p><br></p><p><br></p><p>Should you have any further questions or require additional assistance, feel free to reach out.</p><p><br></p><p><br></p><p><br></p><p>Regards,</p><p><br></p><p>HR department</p>",
+      "Id": "242115dc-9fb2-418d-8bac-c2d9e64adb83",
+      "Code": null,
+      "MaestroBlocksEntityState": 0
+    }
+  ],
   "CreatedBy": null,
   "CreationDate": "2025-01-08T11:50:28.1449927Z",
   "ModifiedBy": 41,
-  "ModificationDate": "2025-01-08T11:51:19.4294006Z",
+  "ModificationDate": "2025-01-09T12:33:59.903045Z",
   "DeletedBy": null,
   "DeletionDate": null,
   "MetaData": {},

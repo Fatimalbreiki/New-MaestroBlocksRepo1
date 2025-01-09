@@ -1,5 +1,5 @@
 {
-  "IsDefaultFontFamily": false,
+  "IsDefaultFontFamily": true,
   "FontFiles": [
     {
       "CreatedBy": 41,
@@ -41,7 +41,7 @@
   "CreatedBy": 41,
   "CreationDate": "2025-01-08T11:36:32.9711587Z",
   "ModifiedBy": 41,
-  "ModificationDate": "2025-01-08T11:36:54.9316953Z",
+  "ModificationDate": "2025-01-09T17:04:44.4081869Z",
   "DeletedBy": null,
   "DeletionDate": null,
   "MetaData": {},
