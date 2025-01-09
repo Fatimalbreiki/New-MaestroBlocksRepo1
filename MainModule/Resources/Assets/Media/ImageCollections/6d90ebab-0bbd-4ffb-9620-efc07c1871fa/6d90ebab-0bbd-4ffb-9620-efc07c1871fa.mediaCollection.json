@@ -1,0 +1,66 @@
+{
+  "Sequence": null,
+  "Name": "LeaveRequestApplicationImageCollection",
+  "Code": null,
+  "Attachments": null,
+  "Files": [
+    {
+      "Id": "48966fb6-40cf-4c13-a7f6-a2e9fbb68398",
+      "Name": "Leave Request Logo.png",
+      "File": null
+    },
+    {
+      "Id": "0f1ddfc4-81d7-45b6-bab8-9f67772aa7c3",
+      "Name": "documents.png",
+      "File": null
+    },
+    {
+      "Id": "ac1b63a4-353a-4406-9048-6e9eb55bd53b",
+      "Name": "Leave Request Application.jpg",
+      "File": null
+    },
+    {
+      "Id": "f012f311-c7bc-405e-8514-ace6e006244e",
+      "Name": "Business mission-amico (2) (1).png",
+      "File": null
+    },
+    {
+      "Id": "e45cb40f-6271-464b-a440-41f1aa010198",
+      "Name": "Events-cuate (1).png",
+      "File": null
+    },
+    {
+      "Id": "e969ab3e-c094-4d73-a9ba-3778b52af767",
+      "Name": "Events-rafiki.png",
+      "File": null
+    },
+    {
+      "Id": "7b393fac-8419-44bd-a0c4-c8fb1e9863c0",
+      "Name": "Events-pana.png",
+      "File": null
+    },
+    {
+      "Id": "988bbaa1-54be-472b-a712-246c9f40fa53",
+      "Name": "Business mission-amico (2).png",
+      "File": null
+    },
+    {
+      "Id": "ca5bab8d-e548-43f6-b70a-a72ab1abc442",
+      "Name": "TheLearningHubImg1.png",
+      "File": null
+    },
+    {
+      "Id": "79770baf-3c8e-4fd1-a800-1b8fa3da70a1",
+      "Name": "tlearninghub_logo.jpg",
+      "File": null
+    }
+  ],
+  "CreatedBy": "41",
+  "CreationDate": "2025-01-08T11:34:33.5272988Z",
+  "ModifiedBy": "41",
+  "ModificationDate": "2025-01-08T18:50:18.6629526Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "Id": "6d90ebab-0bbd-4ffb-9620-efc07c1871fa",
+  "MaestroBlocksEntityState": 0
+}

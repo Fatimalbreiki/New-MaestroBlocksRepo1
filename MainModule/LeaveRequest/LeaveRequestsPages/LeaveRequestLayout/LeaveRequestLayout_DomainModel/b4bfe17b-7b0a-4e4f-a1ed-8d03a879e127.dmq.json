@@ -1,0 +1,14 @@
+{
+  "Id": "b4bfe17b-7b0a-4e4f-a1ed-8d03a879e127",
+  "Name": "LeaveRequestLayout_ExecutedActionList_Query",
+  "Code": "LeaveRequestLayout_ExecutedActionList_Query",
+  "Query": "$filter=(ActionCode eq @ActionCode AND ApplicationCode eq @ApplicationCode AND contains(ApplicationRequestCode, @ApplicationRequestCode) AND contains(RequesterName, @RequesterName) AND CurrentStateCode eq @StateCode AND ActionDate gt @FromActionDate AND ActionDate lt @ToActionDate)",
+  "DiagramCode": null,
+  "DiagramId": "3b69f057-2a18-4203-a4f1-c1646c75d6f9",
+  "EntityId": "487af62c-8e7d-45f6-8bfe-074b313cd58f",
+  "EntityName": null,
+  "SchemaName": null,
+  "OperationTypeId": 0,
+  "QueryObject": "{\"parameters\":[{\"name\":\"@ActionCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ApplicationCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ApplicationRequestCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@RequesterName\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@StateCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@FromActionDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ToActionDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null}]}",
+  "QueryConfigurationId": "ffc77def-2f85-4f5e-9349-dd4013f416f2"
+}

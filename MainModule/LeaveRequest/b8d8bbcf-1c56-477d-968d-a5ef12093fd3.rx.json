@@ -1,0 +1,18 @@
+{
+  "Expression": {
+    "dataTypeId": 6,
+    "EditorType": 2,
+    "Value": "^(?:19|20)\\d\\d-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$\r\n"
+  },
+  "Description": "check the date format",
+  "CreatedBy": null,
+  "CreationDate": "2025-01-08T11:54:03.6229948Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-08T11:57:22.2006065Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "b8d8bbcf-1c56-477d-968d-a5ef12093fd3",
+  "Code": null,
+  "Name": "DateFromValidation"
+}

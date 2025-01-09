@@ -1,0 +1,203 @@
+{
+  "IsPublished": null,
+  "Name": "LeaveRequestLayout_RequestList_LF",
+  "Code": "LeaveRequestLayout_RequestList_LF",
+  "Id": "8fefc00b-f038-4f5c-a300-bc9151b80630",
+  "Steps": [
+    {
+      "IsDisabled": false,
+      "Id": "adb8c805-0b0f-42d8-bbf2-052feaee228d",
+      "Value": "Start",
+      "IsDefaultDescription": false,
+      "ActivityData": null,
+      "Code": "logicflow_start",
+      "ParentId": null,
+      "ErrorHandlingType": 1,
+      "LogicFlowId": "00000000-0000-0000-0000-000000000000",
+      "StepId": 0,
+      "StepTypeKey": 101,
+      "ActivityType": 0,
+      "StepTypeId": 1,
+      "StepDesign": {
+        "UiElementId": null,
+        "GeometryX": 300.0,
+        "GeometryY": 100.0,
+        "GeometryWidth": 55.0,
+        "GeometryHeight": 55.0,
+        "Style": "{\"fontFamily\":\"Segoe UI\",\"overflow\":\"hidden\",\"whiteSpace\":\"wrap\",\"rounded\":true,\"shape\":\"ellipse\",\"perimeter\":\"ellipsePerimeter\",\"strokeWidth\":4,\"resizable\":false,\"fontSize\":12,\"fillColor\":\"#fff\",\"defaultWidth\":55,\"defaultHeight\":55,\"strokeColor\":\"#4C9746\",\"fontColor\":\"#4C9746\",\"type\":\"start\",\"fillOpacity\":100}"
+      },
+      "StepPaths": [
+        {
+          "Id": "b5a6d291-4ecd-4a4d-89c0-8b72e5f21f11",
+          "PathType": 1,
+          "FromLogicStepId": "adb8c805-0b0f-42d8-bbf2-052feaee228d",
+          "ToLogicStepId": "0170c2f9-bb1b-4c54-8944-6583a2248032",
+          "IsDefaultPath": false,
+          "PathDesign": {
+            "GeometryX": null,
+            "GeometryY": null,
+            "Points": [
+            ]
+          },
+          "PathDecisionContext": {
+            "DecisionValue": null,
+            "DecisionContextValue": null
+          }
+        }
+      ]
+    },
+    {
+      "IsDisabled": false,
+      "Id": "b4cf6cfa-89f8-4479-824c-39d74a98b2a8",
+      "Value": "End",
+      "IsDefaultDescription": false,
+      "ActivityData": "{\"Id\":\"00000000-0000-0000-0000-000000000000\",\"inputTypeId\":2,\"DiagramId\":null,\"EntityId\":null,\"EntityName\":null,\"DiagramCode\":null,\"SchemaName\":null,\"ReturnValue\":null,\"SaveResponseType\":0,\"SaveResponseIn\":0,\"SaveResponseInName\":null,\"entityId\":\"63713cd9-a6e7-49fe-b593-ca4a40888726\",\"diagramId\":\"3b69f057-2a18-4203-a4f1-c1646c75d6f9\",\"entityName\":\"RequestListView\",\"schemaName\":\"default\",\"diagramCode\":\"MaestroViews\",\"returnValue\":\"RequestList\"}",
+      "Code": "logicflow_end",
+      "ParentId": null,
+      "ErrorHandlingType": 1,
+      "LogicFlowId": "00000000-0000-0000-0000-000000000000",
+      "StepId": 0,
+      "StepTypeKey": 151,
+      "ActivityType": 0,
+      "StepTypeId": 2,
+      "StepDesign": {
+        "UiElementId": null,
+        "GeometryX": 300.0,
+        "GeometryY": 510.0,
+        "GeometryWidth": 55.0,
+        "GeometryHeight": 55.0,
+        "Style": "{\"fontFamily\":\"Segoe UI\",\"overflow\":\"hidden\",\"whiteSpace\":\"wrap\",\"rounded\":true,\"shape\":\"ellipse\",\"perimeter\":\"ellipsePerimeter\",\"strokeWidth\":4,\"resizable\":false,\"fontSize\":12,\"fillColor\":\"#fff\",\"defaultWidth\":55,\"defaultHeight\":55,\"strokeColor\":\"#5350A2\",\"fontColor\":\"#5350A2\",\"type\":\"end\",\"fillOpacity\":100}"
+      },
+      "StepPaths": [
+        {
+          "Id": "399a7f0a-1f9f-4b5b-9120-f7eff7dabc0f",
+          "PathType": 1,
+          "FromLogicStepId": "0170c2f9-bb1b-4c54-8944-6583a2248032",
+          "ToLogicStepId": "b4cf6cfa-89f8-4479-824c-39d74a98b2a8",
+          "IsDefaultPath": false,
+          "PathDesign": {
+            "GeometryX": null,
+            "GeometryY": null,
+            "Points": [
+            ]
+          },
+          "PathDecisionContext": {
+            "DecisionValue": null,
+            "DecisionContextValue": null
+          }
+        }
+      ]
+    },
+    {
+      "IsDisabled": false,
+      "Id": "0170c2f9-bb1b-4c54-8944-6583a2248032",
+      "Value": "Retrieve Data from Template_RequestList_Query",
+      "IsDefaultDescription": true,
+      "ActivityData": "{\"id\":\"4e1ccfc1-5131-425a-8e5a-59b78b5b6401\",\"name\":\"\",\"entityName\":\"RequestListView\",\"entityId\":\"\",\"diagramCode\":\"MaestroViews\",\"diagramId\":\"3b69f057-2a18-4203-a4f1-c1646c75d6f9\",\"refreshInClient\":true,\"outputName\":\"RequestList\",\"customRequestBody\":\"\",\"attributeId\":\"\",\"queryObject\":\"\",\"responseType\":\"List of MaestroViews.RequestListView\",\"query_selected\":\"5bd8dea3-30e1-47ea-a304-ff75da721b60\",\"RetrieveMode\":1,\"isOneObject\":false,\"query_parameters\":[],\"schemaName\":\"default\",\"isDefaultOutput\":false,\"queryParameter\":[{\"name\":\"@ApplicationRequestCode\",\"context\":{\"dataTypeId\":6,\"editorType\":0,\"value\":\"ApplicationRequestCode\"},\"parameterInputType\":1,\"isArray\":false},{\"name\":\"@ApplicationCode\",\"context\":{\"dataTypeId\":6,\"editorType\":0,\"value\":\"ApplicationCode\"},\"parameterInputType\":1,\"isArray\":false},{\"name\":\"@StateName\",\"context\":{\"dataTypeId\":6,\"editorType\":0,\"value\":\"StateName\"},\"parameterInputType\":1,\"isArray\":false},{\"name\":\"@FromRequestDate\",\"context\":{\"dataTypeId\":4,\"editorType\":0,\"value\":\"FromRequsteDate\"},\"parameterInputType\":8,\"isArray\":false},{\"name\":\"@ToRequestDate\",\"context\":{\"dataTypeId\":4,\"editorType\":0,\"value\":\"ToRequsteDate\"},\"parameterInputType\":8,\"isArray\":false},{\"name\":\"@FromRequestChangeDate\",\"context\":{\"dataTypeId\":4,\"editorType\":0,\"value\":\"FromRequsteChangeDate\"},\"parameterInputType\":8,\"isArray\":false},{\"name\":\"@ToRequestChangeDate\",\"context\":{\"dataTypeId\":4,\"editorType\":0,\"value\":\"ToRequsteChangeDate\"},\"parameterInputType\":8,\"isArray\":false}],\"queryConfigurationId\":\"9a5db5c5-4fc8-4013-a25e-f7937cae61ed\"}",
+      "Code": "3b46801e-c7f3-4d6d-bd95-f6b95b7c979a",
+      "ParentId": null,
+      "ErrorHandlingType": 1,
+      "LogicFlowId": "00000000-0000-0000-0000-000000000000",
+      "StepId": 0,
+      "StepTypeKey": 1121,
+      "ActivityType": 6,
+      "StepTypeId": 3,
+      "StepDesign": {
+        "UiElementId": null,
+        "GeometryX": 200.0,
+        "GeometryY": 240.0,
+        "GeometryWidth": 200.0,
+        "GeometryHeight": 90.0,
+        "Style": "{\"fontFamily\":\"Segoe UI\",\"overflow\":\"hidden\",\"whiteSpace\":\"wrap\",\"rounded\":true,\"shape\":\"label\",\"perimeter\":\"rectanglePerimeter\",\"strokeWidth\":1,\"align\":\"left\",\"verticalAlign\":\"top\",\"spacingTop\":5,\"spacingLeft\":30,\"spacingRight\":5,\"fontSize\":11,\"fillColor\":\"#F3F2FF\",\"fontColor\":\"#54565A\",\"arcSize\":5.5,\"imageWidth\":20,\"imageHeight\":20,\"strokeColor\":\"#a0a0a0\",\"defaultWidth\":200,\"defaultHeight\":90,\"image\":\"/assets/br/images/logicFlow/RetrieveObject_.svg\",\"type\":\"retrieveObject\",\"fillOpacity\":100}"
+      },
+      "StepPaths": [
+        {
+          "Id": "b5a6d291-4ecd-4a4d-89c0-8b72e5f21f11",
+          "PathType": 1,
+          "FromLogicStepId": "adb8c805-0b0f-42d8-bbf2-052feaee228d",
+          "ToLogicStepId": "0170c2f9-bb1b-4c54-8944-6583a2248032",
+          "IsDefaultPath": false,
+          "PathDesign": {
+            "GeometryX": null,
+            "GeometryY": null,
+            "Points": [
+            ]
+          },
+          "PathDecisionContext": {
+            "DecisionValue": null,
+            "DecisionContextValue": null
+          }
+        },
+        {
+          "Id": "399a7f0a-1f9f-4b5b-9120-f7eff7dabc0f",
+          "PathType": 1,
+          "FromLogicStepId": "0170c2f9-bb1b-4c54-8944-6583a2248032",
+          "ToLogicStepId": "b4cf6cfa-89f8-4479-824c-39d74a98b2a8",
+          "IsDefaultPath": false,
+          "PathDesign": {
+            "GeometryX": null,
+            "GeometryY": null,
+            "Points": [
+            ]
+          },
+          "PathDecisionContext": {
+            "DecisionValue": null,
+            "DecisionContextValue": null
+          }
+        }
+      ]
+    }
+  ],
+  "Inputs": [
+    {
+      "Id": "15079214-c361-460d-b21d-ed5392f32aad",
+      "Name": "ApplicationRequestCode",
+      "InputData": "",
+      "DataTypeId": 6,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    },
+    {
+      "Id": "10470f40-dd47-44bc-a6fe-ed0b7920ceb5",
+      "Name": "ApplicationCode",
+      "InputData": "",
+      "DataTypeId": 6,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    },
+    {
+      "Id": "d6275058-4254-4e6d-afc7-58275d40d120",
+      "Name": "StateName",
+      "InputData": "",
+      "DataTypeId": 6,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    },
+    {
+      "Id": "c0fe3668-0563-43ae-ac69-925e0f734eb2",
+      "Name": "FromRequsteDate",
+      "InputData": "",
+      "DataTypeId": 4,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    },
+    {
+      "Id": "72abfb22-d142-429c-96b9-ec3d4e00b8bb",
+      "Name": "ToRequsteDate",
+      "InputData": "",
+      "DataTypeId": 4,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    },
+    {
+      "Id": "198ec426-5bab-408f-abd8-07331393b1ef",
+      "Name": "FromRequsteChangeDate",
+      "InputData": "",
+      "DataTypeId": 4,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    },
+    {
+      "Id": "51b97f2e-5ebf-4bd5-b9d0-3e3b015fd3e6",
+      "Name": "ToRequsteChangeDate",
+      "InputData": "",
+      "DataTypeId": 4,
+      "LogicFlowId": "395c7834-f7b6-4b92-991e-6414816875bb"
+    }
+  ],
+  "OutputData": "{\"inputTypeId\":2,\"diagramId\":\"3b69f057-2a18-4203-a4f1-c1646c75d6f9\",\"entityId\":\"63713cd9-a6e7-49fe-b593-ca4a40888726\",\"entityName\":\"RequestListView\",\"schemaName\":\"default\",\"diagramCode\":\"MaestroViews\"}"
+}

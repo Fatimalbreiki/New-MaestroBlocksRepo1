@@ -1,0 +1,127 @@
+{
+  "Name": "NewsletterScrollingText_ActionList_QueryConfig",
+  "DiagramId": "3b69f057-2a18-4203-a4f1-c1646c75d6f9",
+  "EntityId": "8df34981-567d-4717-9420-56b0f1d4180a",
+  "ExecutionStrategy": 2,
+  "Expands": [],
+  "QueryOptions": {
+    "SelectOption": 0,
+    "IsSkipEnabled": false,
+    "IsTopEnabled": false,
+    "SkipValueType": 1,
+    "TopValueType": 1,
+    "Skip": null,
+    "Top": null,
+    "IncludeTotalCount": false
+  },
+  "Filters": [
+    {
+      "Id": "93dfb61d-6b98-4bd2-9a51-32212f6664b2",
+      "LogicalOperator": "AND",
+      "ValueType": 2,
+      "Value": "TaskId",
+      "QueryFunction": "",
+      "Order": 1,
+      "QueryColumn": {
+        "Id": "8df34981-567d-4717-9420-56b0f1d4180a_f47a1bce-994f-4e25-ac3a-f192acbc9d96",
+        "Name": "WorkFlowTaskId",
+        "EntityId": "8df34981-567d-4717-9420-56b0f1d4180a",
+        "ActualEntityId": "8df34981-567d-4717-9420-56b0f1d4180a",
+        "RootEntityId": "8df34981-567d-4717-9420-56b0f1d4180a",
+        "QueryExpand": {
+          "Id": "8df34981-567d-4717-9420-56b0f1d4180a_f47a1bce-994f-4e25-ac3a-f192acbc9d96",
+          "Name": "WorkFlowTaskId",
+          "Type": 2,
+          "IsCollection": false,
+          "EntityId": "df11480f-40e7-4b14-8f10-3354587a90bc",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/WorkFlowTaskId",
+          "TotalCountPropertyName": "WorkFlowTaskIdTotalCount"
+        },
+        "AttributeType": 2,
+        "RootEntity": null,
+        "IsLocalized": false,
+        "EnumerationId": ""
+      },
+      "Operator": "eq",
+      "CollectionOperator": ""
+    }
+  ],
+  "FilterGroups": [],
+  "Columns": [],
+  "Aggregates": [],
+  "Orders": [],
+  "QueryMetaData": {
+    "IncludeTotalCount": false,
+    "TotalCountPropertyName": null,
+    "Attributes": [
+      {
+        "Key": "1ec21b34-39ca-4770-80e3-a4c6b8f0ba02",
+        "Name": "ActionCode",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "7fadccc5-8565-4adb-927e-9a45b286a3c7",
+        "Name": "IsActive",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "80be7c7f-0188-4bd9-badb-545fed4c1ac0",
+        "Name": "WorkFlowTaskId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "39714867-f2fb-48c3-ae5e-15aa877d05c6",
+        "Name": "GroupId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "90d8d5e3-cee0-4738-89d6-3b347576dbd8",
+        "Name": "OrgUnitId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "e8e73a48-5ecd-44a6-a065-49906ae08bba",
+        "Name": "PrivilegeId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "222d3e5c-3eec-458b-b9a3-5501ddbc9fe2",
+        "Name": "RoleId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "6622a05b-ac3c-445c-b56e-25fc470f3f62",
+        "Name": "UserId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "653030d9-58c4-45e3-a443-bf33b9727d32",
+        "Name": "UserName",
+        "Type": 0,
+        "QueryMetaData": null
+      }
+    ]
+  },
+  "Code": null,
+  "Id": "7465d416-0b73-49d1-8be5-1fc8183322ad"
+}

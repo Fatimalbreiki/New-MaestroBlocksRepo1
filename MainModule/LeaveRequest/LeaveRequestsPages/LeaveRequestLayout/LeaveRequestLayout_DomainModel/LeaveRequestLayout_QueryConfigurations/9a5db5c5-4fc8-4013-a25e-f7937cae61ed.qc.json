@@ -1,0 +1,403 @@
+{
+  "Id": "9a5db5c5-4fc8-4013-a25e-f7937cae61ed",
+  "Name": "LeaveRequestLayout_RequestList_QueryConfig",
+  "DiagramId": "3b69f057-2a18-4203-a4f1-c1646c75d6f9",
+  "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+  "ExecutionStrategy": 2,
+  "Expands": [],
+  "QueryOptions": {
+    "SelectOption": 0,
+    "IsSkipEnabled": false,
+    "IsTopEnabled": false,
+    "SkipValueType": 1,
+    "TopValueType": 1,
+    "Skip": null,
+    "Top": null,
+    "IncludeTotalCount": false
+  },
+  "Filters": [
+    {
+      "Id": "132bb18c-defd-4cdb-9fc6-0448762e2191",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "ApplicationRequestCode",
+      "QueryFunction": "",
+      "Order": 1,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_64c65da7-3cb2-4c0d-b5d7-c436c16f5b76",
+        "Name": "ApplicationRequestCode",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_64c65da7-3cb2-4c0d-b5d7-c436c16f5b76",
+          "Name": "ApplicationRequestCode",
+          "Type": 1,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/ApplicationRequestCode",
+          "TotalCountPropertyName": "ApplicationRequestCodeTotalCount"
+        },
+        "AttributeType": 1,
+        "RootEntity": null,
+        "IsLocalized": false,
+        "EnumerationId": null
+      },
+      "Operator": "contains",
+      "CollectionOperator": ""
+    },
+    {
+      "Id": "021f0a0f-381b-4f25-8708-632e49b4d265",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "ApplicationCode",
+      "QueryFunction": "",
+      "Order": 2,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_ba05b695-2c70-4f13-bd2d-2f485ff8b23b",
+        "Name": "ApplicationCode",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_ba05b695-2c70-4f13-bd2d-2f485ff8b23b",
+          "Name": "ApplicationCode",
+          "Type": 1,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/ApplicationCode",
+          "TotalCountPropertyName": "ApplicationCodeTotalCount"
+        },
+        "AttributeType": 1,
+        "RootEntity": null,
+        "IsLocalized": false,
+        "EnumerationId": null
+      },
+      "Operator": "eq",
+      "CollectionOperator": ""
+    },
+    {
+      "Id": "4c2b9eb5-8203-404a-8425-de038e9addd2",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "StateName",
+      "QueryFunction": "",
+      "Order": 3,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_86b1c64c-c5a4-4e39-9336-518fae7a2146",
+        "Name": "CurrentStateName",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_86b1c64c-c5a4-4e39-9336-518fae7a2146",
+          "Name": "CurrentStateName",
+          "Type": 1,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/CurrentStateName",
+          "TotalCountPropertyName": "CurrentStateNameTotalCount"
+        },
+        "AttributeType": 1,
+        "RootEntity": null,
+        "IsLocalized": false,
+        "EnumerationId": null
+      },
+      "Operator": "eq",
+      "CollectionOperator": ""
+    },
+    {
+      "Id": "7831521a-cb07-4b75-ac70-e8ec6bd07905",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "FromRequestDate",
+      "QueryFunction": "",
+      "Order": 4,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_f64113b2-019f-4ad5-8d8a-8269daa98761",
+        "Name": "RequestedDate",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_f64113b2-019f-4ad5-8d8a-8269daa98761",
+          "Name": "RequestedDate",
+          "Type": 4,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/RequestedDate",
+          "TotalCountPropertyName": "RequestedDateTotalCount"
+        },
+        "AttributeType": 4,
+        "RootEntity": null,
+        "IsLocalized": true,
+        "EnumerationId": null
+      },
+      "Operator": "gt",
+      "CollectionOperator": ""
+    },
+    {
+      "Id": "466ea622-763e-48d9-90ee-dd121161fc68",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "ToRequestDate",
+      "QueryFunction": "",
+      "Order": 5,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_f64113b2-019f-4ad5-8d8a-8269daa98761",
+        "Name": "RequestedDate",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_f64113b2-019f-4ad5-8d8a-8269daa98761",
+          "Name": "RequestedDate",
+          "Type": 4,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/RequestedDate",
+          "TotalCountPropertyName": "RequestedDateTotalCount"
+        },
+        "AttributeType": 4,
+        "RootEntity": null,
+        "IsLocalized": true,
+        "EnumerationId": null
+      },
+      "Operator": "lt",
+      "CollectionOperator": ""
+    },
+    {
+      "Id": "e15108d6-84d1-424d-b4d0-08fa673a9f68",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "FromRequestChangeDate",
+      "QueryFunction": "",
+      "Order": 6,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_36ffe40d-86c2-488c-ab5a-421dd5aec4bb",
+        "Name": "CurrentStateCreationDate",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_36ffe40d-86c2-488c-ab5a-421dd5aec4bb",
+          "Name": "CurrentStateCreationDate",
+          "Type": 4,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/CurrentStateCreationDate",
+          "TotalCountPropertyName": "CurrentStateCreationDateTotalCount"
+        },
+        "AttributeType": 4,
+        "RootEntity": null,
+        "IsLocalized": true,
+        "EnumerationId": null
+      },
+      "Operator": "gt",
+      "CollectionOperator": ""
+    },
+    {
+      "Id": "86c441da-696c-4eee-9428-0552d3149d70",
+      "LogicalOperator": "AND",
+      "ValueType": 3,
+      "Value": "ToRequestChangeDate",
+      "QueryFunction": "",
+      "Order": 7,
+      "QueryColumn": {
+        "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_36ffe40d-86c2-488c-ab5a-421dd5aec4bb",
+        "Name": "CurrentStateCreationDate",
+        "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "ActualEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "RootEntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+        "QueryExpand": {
+          "Id": "63713cd9-a6e7-49fe-b593-ca4a40888726_36ffe40d-86c2-488c-ab5a-421dd5aec4bb",
+          "Name": "CurrentStateCreationDate",
+          "Type": 4,
+          "IsCollection": false,
+          "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+          "ParentQueryExpand": null,
+          "IsRoot": true,
+          "QueryOptions": {
+            "SelectOption": 0,
+            "IsSkipEnabled": false,
+            "IsTopEnabled": false,
+            "SkipValueType": 1,
+            "TopValueType": 1,
+            "Skip": null,
+            "Top": null,
+            "IncludeTotalCount": false
+          },
+          "QueryName": "/CurrentStateCreationDate",
+          "TotalCountPropertyName": "CurrentStateCreationDateTotalCount"
+        },
+        "AttributeType": 4,
+        "RootEntity": null,
+        "IsLocalized": true,
+        "EnumerationId": null
+      },
+      "Operator": "lt",
+      "CollectionOperator": ""
+    }
+  ],
+  "FilterGroups": [],
+  "Columns": [],
+  "Aggregates": [],
+  "Orders": [],
+  "QueryMetaData": {
+    "IncludeTotalCount": false,
+    "TotalCountPropertyName": null,
+    "Attributes": [
+      {
+        "Key": "2022d992-6737-4060-a09e-96f1eaa5cd63",
+        "Name": "CurrentStateCode",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "6a10a9f4-cb04-4454-828b-aeb5356e021b",
+        "Name": "CurrentStateName",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "c2e6be28-9207-4807-ab10-f1f41ff00a2a",
+        "Name": "IsTerminated",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "9d68ccfe-550f-4ea2-b83e-1f1c0de8a0fc",
+        "Name": "RequestId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "7f416691-2c1b-47ef-9701-64281b7a5dba",
+        "Name": "RequestedDate",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "d2472403-cfe7-4632-bc3f-713fe9602d1c",
+        "Name": "ApplicationCode",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "a0b35a2f-436c-4cdb-b3a7-9046f0744e1c",
+        "Name": "ApplicationRequestCode",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "fdc8ae13-35b5-4eb4-b5ea-e4f3c9e54854",
+        "Name": "ApplicationRequestKey",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "95437135-e177-48dc-871b-817ab4a3962c",
+        "Name": "CurrentStateCreationDate",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "854d7d4b-e139-4f5f-bffe-0253a366689b",
+        "Name": "ParentRequestId",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "4cbd8be7-58e7-4a0d-b385-75dbe29ca3c9",
+        "Name": "ParentStateCode",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "50e6851a-3b1f-4325-bfbe-6c1d58fbba35",
+        "Name": "Requester",
+        "Type": 0,
+        "QueryMetaData": null
+      },
+      {
+        "Key": "586b00f7-b808-487b-8ea9-616609dd960f",
+        "Name": "WorkflowRequestId",
+        "Type": 0,
+        "QueryMetaData": null
+      }
+    ]
+  },
+  "Code": null
+}

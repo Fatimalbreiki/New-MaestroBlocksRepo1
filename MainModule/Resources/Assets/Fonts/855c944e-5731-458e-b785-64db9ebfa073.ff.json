@@ -1,0 +1,51 @@
+{
+  "IsDefaultFontFamily": false,
+  "FontFiles": [
+    {
+      "CreatedBy": 41,
+      "CreationDate": "2025-01-08T11:36:54.8146203Z",
+      "ModifiedBy": null,
+      "ModificationDate": null,
+      "DeletedBy": null,
+      "DeletionDate": null,
+      "MetaData": {},
+      "Id": "fe382986-cb36-4c50-be4d-5eca9631d25d",
+      "Code": "fe382986-cb36-4c50-be4d-5eca9631d25d.ttf",
+      "Name": "calibri-bold.ttf"
+    },
+    {
+      "CreatedBy": 41,
+      "CreationDate": "2025-01-08T11:36:54.8733045Z",
+      "ModifiedBy": null,
+      "ModificationDate": null,
+      "DeletedBy": null,
+      "DeletionDate": null,
+      "MetaData": {},
+      "Id": "b27f640e-82f2-478e-acdb-ba4f45d91c24",
+      "Code": "b27f640e-82f2-478e-acdb-ba4f45d91c24.ttf",
+      "Name": "calibri-bold-italic.ttf"
+    },
+    {
+      "CreatedBy": 41,
+      "CreationDate": "2025-01-08T11:36:54.9134086Z",
+      "ModifiedBy": null,
+      "ModificationDate": null,
+      "DeletedBy": null,
+      "DeletionDate": null,
+      "MetaData": {},
+      "Id": "634c19fe-14b7-4708-ba81-b589f056e168",
+      "Code": "634c19fe-14b7-4708-ba81-b589f056e168.ttf",
+      "Name": "calibri-italic.ttf"
+    }
+  ],
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-08T11:36:32.9711587Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-08T11:36:54.9316953Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "855c944e-5731-458e-b785-64db9ebfa073",
+  "Code": "",
+  "Name": "Calibri"
+}

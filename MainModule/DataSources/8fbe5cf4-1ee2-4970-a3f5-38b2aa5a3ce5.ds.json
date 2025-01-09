@@ -1,0 +1,32 @@
+{
+  "TypeId": 4,
+  "IsSystem": false,
+  "IsBuiltIn": false,
+  "Host": "172.16.235.28,25521",
+  "Database": "UpdatedLeaveRequestApplicationDB_FatimaAlbreiki",
+  "Port": 0,
+  "Password": "xXfVMswkobiCpkSn4mkRlAS7IboHZt3nhSlfv/7yrIw=",
+  "UserName": "sa",
+  "PrimaryKeyAttributeType": 2,
+  "EntityHistories": [],
+  "AttributesHistories": [],
+  "SyncHistories": [],
+  "AttributeMigrationTypes": [],
+  "Schemas": [
+    "dbo"
+  ],
+  "MigrationHistroyTableName": null,
+  "MigrationsTableName": "MaestroMigrations_8fbe5cf41ee24970a3f538b2aa5a3ce5",
+  "HasHistories": false,
+  "IsEncrypted": true,
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-09T10:19:39.9560841Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-09T10:27:23.6975353Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "8fbe5cf4-1ee2-4970-a3f5-38b2aa5a3ce5",
+  "Code": "",
+  "Name": "UpdatedLeaveRequestApplicationDomainSource"
+}

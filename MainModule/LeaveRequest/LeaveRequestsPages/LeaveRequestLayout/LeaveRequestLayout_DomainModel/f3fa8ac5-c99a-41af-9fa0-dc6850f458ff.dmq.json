@@ -1,0 +1,14 @@
+{
+  "Id": "f3fa8ac5-c99a-41af-9fa0-dc6850f458ff",
+  "Name": "LeaveRequestLayout_ActionList_Query",
+  "Code": "LeaveRequestLayout_ActionList_Query",
+  "Query": "$filter=(WorkFlowTaskId eq @WorkflowTaskId)",
+  "DiagramCode": null,
+  "DiagramId": "3b69f057-2a18-4203-a4f1-c1646c75d6f9",
+  "EntityId": "8df34981-567d-4717-9420-56b0f1d4180a",
+  "EntityName": null,
+  "SchemaName": null,
+  "OperationTypeId": 0,
+  "QueryObject": "{\"Parameters\":[{\"Name\":\"@TaskId\",\"TypeId\":2,\"Value\":null,\"oDataPrimitiveType\":\"number\",\"EditorMode\":0,\"EnumerationId\":null}]}",
+  "QueryConfigurationId": "0f573343-b752-4e90-a53b-7d6acb872cf6"
+}

@@ -1,0 +1,14 @@
+{
+  "Id": "5ddb24d2-01ec-4557-ba5e-617c15098764",
+  "Name": "LeaveRequestLayout_TaskList_Query",
+  "Code": "LeaveRequestLayout_TaskList_Query",
+  "Query": "$filter=(RequestCreationDate gt @FromRequsetCreationDate AND RequestCreationDate lt @ToRequsetCreationDate AND WorkflowRequestDate gt @FromTaskCreationDate AND WorkflowRequestDate lt @ToTaskCreationDate AND WorkflowApplicationCode eq @WorkflowApplicationCode AND StateName eq @StateName AND contains(ApplicationRequestCode, @ApplicationRequestCode) AND contains(RequesterName, @RequsterName))",
+  "DiagramCode": null,
+  "DiagramId": "3b69f057-2a18-4203-a4f1-c1646c75d6f9",
+  "EntityId": "0b554782-604e-458b-b528-2d3d27ac666c",
+  "EntityName": null,
+  "SchemaName": null,
+  "OperationTypeId": 0,
+  "QueryObject": "{\"parameters\":[{\"name\":\"@FromRequsetCreationDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ToRequsetCreationDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@FromTaskCreationDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ToTaskCreationDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@WorkflowApplicationCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@StateName\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ApplicationRequestCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@RequsterName\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null}]}",
+  "QueryConfigurationId": "f180680d-58ab-4889-ac9f-8cd8919d5854"
+}

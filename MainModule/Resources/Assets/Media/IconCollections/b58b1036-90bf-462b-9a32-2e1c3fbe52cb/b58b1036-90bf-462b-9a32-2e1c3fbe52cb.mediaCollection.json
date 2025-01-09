@@ -1,0 +1,30 @@
+{
+  "Name": "LeaveRequestApplicationICONs",
+  "Code": null,
+  "Attachments": null,
+  "Files": [
+    {
+      "Id": "9042e4cf-cf00-4ef5-af09-0028abc6bbdb",
+      "Name": "leave-request-1.png",
+      "File": null
+    },
+    {
+      "Id": "80bd30d0-5f5f-4af5-b179-65e0381ab86c",
+      "Name": "LRAtimeIcon.png",
+      "File": null
+    },
+    {
+      "Id": "e42cd855-4948-46ae-b584-5d0c0e176cee",
+      "Name": "leave-request.png",
+      "File": null
+    }
+  ],
+  "CreatedBy": "41",
+  "CreationDate": "2025-01-08T11:35:21.1371788Z",
+  "ModifiedBy": null,
+  "ModificationDate": null,
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "Id": "b58b1036-90bf-462b-9a32-2e1c3fbe52cb",
+  "MaestroBlocksEntityState": 0
+}

@@ -1,0 +1,16 @@
+{
+  "Title": "",
+  "NotificationTypeId": 0,
+  "IsPublished": false,
+  "TemplateContents": [],
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-08T11:51:34.4180291Z",
+  "ModifiedBy": null,
+  "ModificationDate": null,
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "976d972d-e3af-4cc4-a5c8-65f793ecf3d0",
+  "Code": "",
+  "Name": "LeaveRequestApplicationEmailTemplate2Manager"
+}

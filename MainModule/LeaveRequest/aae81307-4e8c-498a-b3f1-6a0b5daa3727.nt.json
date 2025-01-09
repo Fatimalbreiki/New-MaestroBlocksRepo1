@@ -1,0 +1,16 @@
+{
+  "Title": "Fatima_Albreiki_Leave Request Application",
+  "NotificationTypeId": 0,
+  "IsPublished": false,
+  "TemplateContents": [],
+  "CreatedBy": null,
+  "CreationDate": "2025-01-08T11:50:28.1449927Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-08T11:51:19.4294006Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "aae81307-4e8c-498a-b3f1-6a0b5daa3727",
+  "Code": "",
+  "Name": "LeaveRequestApplicationEmailTemplate2HR"
+}

@@ -1,0 +1,14 @@
+{
+  "Id": "e90f20b2-43ec-4668-856b-996514948e46",
+  "Name": "NewsletterScrollingText_RequestList_Query",
+  "Code": "NewsletterScrollingText_RequestList_Query",
+  "Query": "$filter=(contains(ApplicationRequestCode, @ApplicationRequestCode) AND ApplicationCode eq @ApplicationCode AND CurrentStateName eq @StateName AND RequestedDate gt @FromRequestDate AND RequestedDate lt @ToRequestDate AND CurrentStateCreationDate gt @FromRequestChangeDate AND CurrentStateCreationDate lt @ToRequestChangeDate)",
+  "DiagramCode": null,
+  "DiagramId": "3b69f057-2a18-4203-a4f1-c1646c75d6f9",
+  "EntityId": "63713cd9-a6e7-49fe-b593-ca4a40888726",
+  "EntityName": null,
+  "SchemaName": null,
+  "OperationTypeId": 0,
+  "QueryObject": "{\"parameters\":[{\"name\":\"@ApplicationRequestCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ApplicationCode\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@StateName\",\"value\":null,\"typeId\":1,\"oDataPrimitiveType\":\"string\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@FromRequestDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ToRequestDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@FromRequestChangeDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null},{\"name\":\"@ToRequestChangeDate\",\"value\":null,\"typeId\":4,\"oDataPrimitiveType\":\"raw\",\"editorMode\":0,\"enumerationId\":null}]}",
+  "QueryConfigurationId": "b06afef3-e531-4695-8bf0-e32a1a657002"
+}

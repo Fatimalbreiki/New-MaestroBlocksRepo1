@@ -1,0 +1,13 @@
+{
+  "Code": null,
+  "Template": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n    <xsl:output method=\"html\" indent=\"yes\"/>\n    \n    <!-- Match the root element -->\n    <xsl:template match=\"/\">\n        <html>\n            <head>\n                <title>Leave Request Types</title>\n            </head>\n            <body>\n                <h1>Leave Request Types</h1>\n                <table border=\"1\">\n                    <tr>\n                        <th>Leave Type</th>\n                        <th>Description</th>\n                    </tr>\n                    <!-- Iterate over each leaveRequest in the XML, but exclude Parental Leave -->\n                    <xsl:for-each select=\"leaveRequests/leaveRequest[not(type='Parental Leave')]\">\n                        <tr>\n                            <td><xsl:value-of select=\"type\"/></td>\n                            <td><xsl:value-of select=\"description\"/></td>\n                        </tr>\n                    </xsl:for-each>\n                </table>\n            </body>\n        </html>\n    </xsl:template>\n</xsl:stylesheet>",
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-08T12:15:32.5790434Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-09T07:57:56.578947Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "ee46fd02-07e4-4283-8c27-29d69f4f9311",
+  "Name": "LeaveRequestApplicationXSLTTemplate"
+}

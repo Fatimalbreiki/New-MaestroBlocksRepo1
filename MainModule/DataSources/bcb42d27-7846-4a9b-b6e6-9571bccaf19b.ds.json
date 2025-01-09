@@ -1,0 +1,142 @@
+{
+  "TypeId": 4,
+  "IsSystem": false,
+  "IsBuiltIn": false,
+  "Host": "172.16.235.28,25521",
+  "Database": "LeaveRequestApplicationDB_FatimaAlbreiki",
+  "Port": 0,
+  "Password": "xXfVMswkobiCpkSn4mkRlAS7IboHZt3nhSlfv/7yrIw=",
+  "UserName": "sa",
+  "PrimaryKeyAttributeType": 2,
+  "EntityHistories": [],
+  "AttributesHistories": [],
+  "SyncHistories": [
+    {
+      "Id": "1d56822c-29e3-49ba-b6ec-8dbedb77ef3d",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "b8d59d5c-5bf7-4547-aa96-310c900ab54c",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "23e68d53-7d6a-4585-8e43-81d112c47135",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "344a7c6d-a356-41cf-b8d0-a0fa57099cd2",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "e592be8a-f61b-465a-af20-5d63b7e8f5aa",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "ea09862d-9972-41d2-8fb4-d841551990e0",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "6054cb2f-a0e2-4e4b-b27f-f1dd65b50ea6",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "da2e10b5-36af-4912-9feb-cf834b628a84",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "d1b826d1-e06a-4184-b757-58e3fcddb941",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "cdc0edac-fff5-493b-8615-e420a664a1b8",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "198b4812-ed8b-4c0a-a146-348f13f1ac3d",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    },
+    {
+      "Id": "07383fd4-ec14-4c7f-b5ef-bee0e064843d",
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c"
+    }
+  ],
+  "AttributeMigrationTypes": [
+    {
+      "Id": "b8d59d5c-5bf7-4547-aa96-310c900ab54c",
+      "TypeId": 1,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "23e68d53-7d6a-4585-8e43-81d112c47135",
+      "TypeId": 1,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "344a7c6d-a356-41cf-b8d0-a0fa57099cd2",
+      "TypeId": 1,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "e592be8a-f61b-465a-af20-5d63b7e8f5aa",
+      "TypeId": 1,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "ea09862d-9972-41d2-8fb4-d841551990e0",
+      "TypeId": 73,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "da2e10b5-36af-4912-9feb-cf834b628a84",
+      "TypeId": 8,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "d1b826d1-e06a-4184-b757-58e3fcddb941",
+      "TypeId": 15,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "cdc0edac-fff5-493b-8615-e420a664a1b8",
+      "TypeId": 4,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "198b4812-ed8b-4c0a-a146-348f13f1ac3d",
+      "TypeId": 1,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    },
+    {
+      "Id": "07383fd4-ec14-4c7f-b5ef-bee0e064843d",
+      "TypeId": 8,
+      "SyncedInMigrationName": "LRADSync1c0c6f640cf9a40c5855257f15de86f5c",
+      "IsSynced": true
+    }
+  ],
+  "Schemas": [
+    "dbo"
+  ],
+  "MigrationHistroyTableName": null,
+  "MigrationsTableName": "MaestroMigrations_bcb42d2778464a9bb6e69571bccaf19b",
+  "HasHistories": true,
+  "IsEncrypted": true,
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-08T11:59:04.3466093Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-09T10:27:49.5810886Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "bcb42d27-7846-4a9b-b6e6-9571bccaf19b",
+  "Code": "",
+  "Name": "LeaveRequestApplication"
+}
